@@ -23,7 +23,7 @@ renamed = 'renamed'
 deleted = 'deleted'
 
 [sudo]
-format = '[!](bold)'
+format = '[! ](bold)'
 disabled = false
 
 [cmd_duration]

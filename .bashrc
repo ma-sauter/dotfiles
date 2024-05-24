@@ -19,7 +19,10 @@ pfetch
 #########################
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias config='/usr/bin/git --git-dir=/home/marc/.myconfig/.git --work-tree=/home/marc/'
+# for gitting dotfiles
+alias dotfiles='/usr/bin/git --git-dir=/home/marc/.myconfig/.git --work-tree=/home/marc/'
+# If i forgot sudo
+alias fuck='sudo $(history -p !!)'
 
 #########################
 # PATH                  #

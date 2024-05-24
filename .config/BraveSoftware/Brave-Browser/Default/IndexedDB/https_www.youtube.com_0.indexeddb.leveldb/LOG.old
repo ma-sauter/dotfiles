@@ -1,0 +1,9 @@
+2024/05/23-22:21:00.707 50b Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/23-22:21:00.707 50b Recovering log #11
+2024/05/23-22:21:00.708 50b Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000011.log 
+2024/05/23-22:21:04.307 50c Compacting 1@1 + 1@2 files
+2024/05/23-22:21:04.316 50c Generated table #14@1: 334 keys, 47705 bytes
+2024/05/23-22:21:04.316 50c Compacted 1@1 + 1@2 files => 47705 bytes
+2024/05/23-22:21:04.318 50c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/23-22:21:04.318 50c Delete type=2 #12
+2024/05/23-22:21:04.318 50c Delete type=2 #9

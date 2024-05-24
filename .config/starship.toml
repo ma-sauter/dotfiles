@@ -1,0 +1,31 @@
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[x](bold red)"
+vimcmd_symbol = "[<](bold green)"
+
+[localip]
+disabled = false
+
+[directory]
+truncation_symbol = ".../"
+
+[git_status]
+format = '([\[$all_status $ahead_behind\]]($style) )'
+conflicted = 'conflicted'
+ahead = 'ahead'
+behind = 'behind'
+diverged = 'diverged'
+untracked = 'untracked'
+stashed = 'stashed'
+modified = 'modified'
+staged = 'staged'
+renamed = 'renamed'
+deleted = 'deleted'
+
+[sudo]
+format = '[!](bold)'
+disabled = false
+
+[cmd_duration]
+min_time = 500
+format = "[$duration](bold green)"

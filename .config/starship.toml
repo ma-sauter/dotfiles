@@ -27,5 +27,5 @@ format = '[! ](bold)'
 disabled = false
 
 [cmd_duration]
-min_time = 500
+min_time = 2500
 format = "[$duration](bold green)"

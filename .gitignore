@@ -11,3 +11,6 @@
 
 pkg/
 src/
+
+.config/github-copilot
+.config/BraveSoftware

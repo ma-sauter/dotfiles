@@ -14,3 +14,5 @@ src/
 
 .config/github-copilot
 .config/BraveSoftware
+.config/dconf/user
+.config/pulse

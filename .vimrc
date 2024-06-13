@@ -109,6 +109,9 @@ set number
 set expandtab
 
 " Don't wrap lines but make them extend to the right
-set nowrap 
+" set nowrap 
+
+" Enable copying to the system clipboard
+set clipboard=unnamedplus
 
 " }}}

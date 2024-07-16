@@ -24,6 +24,9 @@ alias dotfiles='/usr/bin/git --git-dir=/home/marc/.myconfig/.git --work-tree=/ho
 # If i forgot sudo
 alias fuck='sudo $(history -p !!)'
 
+alias mypy='~/basic_python_venv/bin/python'
+alias mypip='~/basic_python_venv/bin/pip'
+
 alias sleepy='systemctl hibernate'
 #########################
 # PATH                  #

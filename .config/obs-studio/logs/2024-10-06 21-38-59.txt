@@ -1,0 +1,288 @@
+21:38:59.591: Platform: Wayland
+21:38:59.591: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+21:38:59.591: CPU Speed: 3200.458MHz
+21:38:59.592: Physical Cores: 4, Logical Cores: 8
+21:38:59.592: Physical Memory: 7705MB Total, 2618MB Free
+21:38:59.592: Kernel Version: Linux 6.10.10-arch1-1
+21:38:59.592: Distribution: "Arch Linux" Unknown
+21:38:59.592: Desktop Environment: Hyprland
+21:38:59.592: Session Type: wayland
+21:38:59.594: Qt Version: 6.7.3 (runtime), 6.7.2 (compiled)
+21:38:59.594: Portable mode: false
+21:38:59.631: OBS 30.2.1-1 (linux)
+21:38:59.631: ---------------------------------
+21:38:59.632: ---------------------------------
+21:38:59.632: audio settings reset:
+21:38:59.632: 	samples per sec: 48000
+21:38:59.632: 	speakers:        2
+21:38:59.632: 	max buffering:   960 milliseconds
+21:38:59.632: 	buffering type:  dynamically increasing
+21:38:59.641: ---------------------------------
+21:38:59.641: Initializing OpenGL...
+21:38:59.641: Using EGL/Wayland
+21:38:59.731: Initialized EGL 1.5
+21:38:59.775: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+21:38:59.775: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.4-arch1.1, shading language 4.60
+21:39:00.023: ---------------------------------
+21:39:00.023: video settings reset:
+21:39:00.023: 	base resolution:   1920x1080
+21:39:00.023: 	output resolution: 1280x720
+21:39:00.023: 	downscale filter:  Bicubic
+21:39:00.023: 	fps:               30/1
+21:39:00.023: 	format:            NV12
+21:39:00.023: 	YUV mode:          Rec. 709/Partial
+21:39:00.024: NV12 texture support enabled
+21:39:00.024: P010 texture support not available
+21:39:00.032: Audio monitoring device:
+21:39:00.032: 	name: Default
+21:39:00.032: 	id: default
+21:39:00.032: ---------------------------------
+21:39:00.042: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:39:00.053: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:39:00.062: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:39:00.062: Failed to initialize module 'decklink.so'
+21:39:00.466: [pipewire] Available capture sources:
+21:39:00.466: [pipewire]     - Monitor source
+21:39:00.466: [pipewire]     - Window source
+21:39:00.574: v4l2loopback not installed, virtual camera not registered
+21:39:00.732: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+21:39:00.732: FFmpeg VAAPI H264 encoding not supported
+21:39:00.732: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+21:39:00.732: FFmpeg VAAPI AV1 encoding not supported
+21:39:00.733: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+21:39:00.733: FFmpeg VAAPI HEVC encoding not supported
+21:39:00.747: os_dlopen(/usr/lib/obs-plugins/obs-libfdk.so->/usr/lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+21:39:00.747: 
+21:39:00.751: os_dlopen(/usr/lib/obs-plugins/obs-libfdk.so->/usr/lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+21:39:00.751: 
+21:39:00.751: Module '/usr/lib/obs-plugins/obs-libfdk.so' not loaded
+21:39:00.852: ---------------------------------
+21:39:00.852:   Loaded Modules:
+21:39:00.852:     text-freetype2.so
+21:39:00.852:     rtmp-services.so
+21:39:00.852:     obs-x264.so
+21:39:00.852:     obs-webrtc.so
+21:39:00.852:     obs-vst.so
+21:39:00.852:     obs-transitions.so
+21:39:00.852:     obs-qsv11.so
+21:39:00.852:     obs-outputs.so
+21:39:00.852:     obs-filters.so
+21:39:00.852:     obs-ffmpeg.so
+21:39:00.852:     linux-v4l2.so
+21:39:00.852:     linux-pulseaudio.so
+21:39:00.852:     linux-pipewire.so
+21:39:00.852:     linux-jack.so
+21:39:00.852:     linux-capture.so
+21:39:00.852:     linux-alsa.so
+21:39:00.852:     image-source.so
+21:39:00.852:     frontend-tools.so
+21:39:00.852:     decklink-output-ui.so
+21:39:00.852:     decklink-captions.so
+21:39:00.852: ---------------------------------
+21:39:00.852: ---------------------------------
+21:39:00.852: Available Encoders:
+21:39:00.852:   Video Encoders:
+21:39:00.852: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:39:00.852: 	- ffmpeg_aom_av1 (AOM AV1)
+21:39:00.852: 	- obs_x264 (x264)
+21:39:00.852:   Audio Encoders:
+21:39:00.852: 	- ffmpeg_aac (FFmpeg AAC)
+21:39:00.852: 	- ffmpeg_opus (FFmpeg Opus)
+21:39:00.852: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+21:39:00.853: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+21:39:00.853: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+21:39:00.853: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+21:39:00.853: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+21:39:00.853: ==== Startup complete ===============================================
+21:39:00.861: No scene file found, creating default scene
+21:39:00.916: All scene data cleared
+21:39:00.916: ------------------------------------------------
+21:39:00.927: pulse-input: Server name: 'pulseaudio 17.0'
+21:39:00.928: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:39:00.928: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+21:39:01.011: pulse-input: Server name: 'pulseaudio 17.0'
+21:39:01.012: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:39:01.012: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+21:39:01.016: Switched to scene 'Scene'
+21:39:01.017: Failed to glob scene collections
+21:39:01.352: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:01.362: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:01.383: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:01.460: [rtmp-services plugin] Successfully updated file 'services.json' (version 264)
+21:39:01.460: [rtmp-services plugin] Successfully updated package (version 264)
+21:39:23.701: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:35.575: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:37.825: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:38.804: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:39:46.755: 
+21:39:46.755: ==== Auto-config wizard testing commencing ======
+
+21:39:46.766: Number of remaining views: 1
+21:39:46.766: ---------------------------------
+21:39:46.766: video settings reset:
+21:39:46.766: 	base resolution:   1920x1080
+21:39:46.766: 	output resolution: 1920x1080
+21:39:46.766: 	downscale filter:  Bicubic
+21:39:46.766: 	fps:               60/1
+21:39:46.766: 	format:            NV12
+21:39:46.766: 	YUV mode:          Rec. 709/Partial
+21:39:46.774: NV12 texture support enabled
+21:39:46.774: P010 texture support not available
+21:39:46.793: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:39:46.793: ---------------------------------
+21:39:46.793: [x264 encoder: 'test_x264'] preset: veryfast
+21:39:46.793: [x264 encoder: 'test_x264'] profile: high
+21:39:46.794: [x264 encoder: 'test_x264'] settings:
+21:39:46.794: 	rate_control: CRF
+21:39:46.794: 	bitrate:      0
+21:39:46.794: 	buffer size:  0
+21:39:46.794: 	crf:          20
+21:39:46.794: 	fps_num:      60
+21:39:46.794: 	fps_den:      1
+21:39:46.794: 	width:        1920
+21:39:46.794: 	height:       1080
+21:39:46.794: 	keyint:       250
+21:39:46.794: 
+21:39:46.824: ---------------------------------
+21:39:46.826: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:39:46.826: 
+21:39:51.829: Output 'null': stopping
+21:39:51.829: Output 'null': Total frames output: 254
+21:39:51.829: Output 'null': Total drawn frames: 300
+21:39:51.882: Video stopped, number of skipped frames due to encoding lag: 164/293 (56.0%)
+21:39:52.095: Number of remaining views: 1
+21:39:52.095: ---------------------------------
+21:39:52.095: video settings reset:
+21:39:52.095: 	base resolution:   1920x1080
+21:39:52.095: 	output resolution: 1920x1080
+21:39:52.095: 	downscale filter:  Bicubic
+21:39:52.095: 	fps:               30/1
+21:39:52.095: 	format:            NV12
+21:39:52.095: 	YUV mode:          Rec. 709/Partial
+21:39:52.095: NV12 texture support enabled
+21:39:52.095: P010 texture support not available
+21:39:52.104: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:39:52.104: ---------------------------------
+21:39:52.104: [x264 encoder: 'test_x264'] preset: veryfast
+21:39:52.104: [x264 encoder: 'test_x264'] profile: high
+21:39:52.104: [x264 encoder: 'test_x264'] settings:
+21:39:52.104: 	rate_control: CRF
+21:39:52.104: 	bitrate:      0
+21:39:52.104: 	buffer size:  0
+21:39:52.104: 	crf:          20
+21:39:52.104: 	fps_num:      30
+21:39:52.104: 	fps_den:      1
+21:39:52.104: 	width:        1920
+21:39:52.104: 	height:       1080
+21:39:52.104: 	keyint:       250
+21:39:52.104: 
+21:39:52.136: ---------------------------------
+21:39:52.136: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:39:52.136: 
+21:39:57.137: Output 'null': stopping
+21:39:57.137: Output 'null': Total frames output: 123
+21:39:57.137: Output 'null': Total drawn frames: 150
+21:39:57.272: Number of remaining views: 1
+21:39:57.272: ---------------------------------
+21:39:57.272: video settings reset:
+21:39:57.272: 	base resolution:   1920x1080
+21:39:57.272: 	output resolution: 1280x720
+21:39:57.272: 	downscale filter:  Bicubic
+21:39:57.272: 	fps:               60/1
+21:39:57.272: 	format:            NV12
+21:39:57.272: 	YUV mode:          Rec. 709/Partial
+21:39:57.272: NV12 texture support enabled
+21:39:57.272: P010 texture support not available
+21:39:57.277: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:39:57.277: ---------------------------------
+21:39:57.277: [x264 encoder: 'test_x264'] preset: veryfast
+21:39:57.277: [x264 encoder: 'test_x264'] profile: high
+21:39:57.277: [x264 encoder: 'test_x264'] settings:
+21:39:57.277: 	rate_control: CRF
+21:39:57.277: 	bitrate:      0
+21:39:57.277: 	buffer size:  0
+21:39:57.277: 	crf:          20
+21:39:57.277: 	fps_num:      60
+21:39:57.277: 	fps_den:      1
+21:39:57.277: 	width:        1280
+21:39:57.277: 	height:       720
+21:39:57.277: 	keyint:       250
+21:39:57.277: 
+21:39:57.284: ---------------------------------
+21:39:57.284: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:39:57.284: 
+21:40:02.285: Output 'null': stopping
+21:40:02.285: Output 'null': Total frames output: 271
+21:40:02.285: Output 'null': Total drawn frames: 300
+21:40:02.344: Number of remaining views: 1
+21:40:02.344: ---------------------------------
+21:40:02.344: video settings reset:
+21:40:02.344: 	base resolution:   1920x1080
+21:40:02.344: 	output resolution: 1280x720
+21:40:02.344: 	downscale filter:  Bicubic
+21:40:02.344: 	fps:               30/1
+21:40:02.344: 	format:            NV12
+21:40:02.344: 	YUV mode:          Rec. 709/Partial
+21:40:02.344: NV12 texture support enabled
+21:40:02.344: P010 texture support not available
+21:40:02.350: Output 'null': Tried to use obs_output_set_media on an encoded output
+21:40:02.350: ---------------------------------
+21:40:02.350: [x264 encoder: 'test_x264'] preset: veryfast
+21:40:02.350: [x264 encoder: 'test_x264'] profile: high
+21:40:02.350: [x264 encoder: 'test_x264'] settings:
+21:40:02.350: 	rate_control: CRF
+21:40:02.350: 	bitrate:      0
+21:40:02.350: 	buffer size:  0
+21:40:02.350: 	crf:          20
+21:40:02.350: 	fps_num:      30
+21:40:02.350: 	fps_den:      1
+21:40:02.350: 	width:        1280
+21:40:02.350: 	height:       720
+21:40:02.350: 	keyint:       250
+21:40:02.350: 
+21:40:02.354: ---------------------------------
+21:40:02.354: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+21:40:02.354: 
+21:40:07.356: Output 'null': stopping
+21:40:07.356: Output 'null': Total frames output: 123
+21:40:07.356: Output 'null': Total drawn frames: 150
+21:40:07.417: Number of remaining views: 1
+21:40:07.417: ---------------------------------
+21:40:07.417: video settings reset:
+21:40:07.417: 	base resolution:   1920x1080
+21:40:07.417: 	output resolution: 1280x720
+21:40:07.417: 	downscale filter:  Bicubic
+21:40:07.417: 	fps:               30/1
+21:40:07.417: 	format:            NV12
+21:40:07.417: 	YUV mode:          Rec. 709/Partial
+21:40:07.417: NV12 texture support enabled
+21:40:07.417: P010 texture support not available
+21:40:16.159: Number of remaining views: 1
+21:40:16.159: ---------------------------------
+21:40:16.159: video settings reset:
+21:40:16.159: 	base resolution:   1920x1080
+21:40:16.159: 	output resolution: 1280x720
+21:40:16.159: 	downscale filter:  Bicubic
+21:40:16.159: 	fps:               60/1
+21:40:16.159: 	format:            NV12
+21:40:16.159: 	YUV mode:          Rec. 709/Partial
+21:40:16.160: NV12 texture support enabled
+21:40:16.160: P010 texture support not available
+21:40:16.187: 
+21:40:16.187: ==== Auto-config wizard testing stopping ========
+
+21:40:19.929: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:19.954: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:23.195: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:23.219: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:28.280: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:28.312: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:28.503: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:41.911: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:46.177: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:52.170: The cached device pixel ratio value was stale on window update.  Please file a QTBUG which explains how to reproduce.
+21:40:55.379: PipeWire initialized
+21:40:55.394: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+21:40:55.472: [pipewire] Screencast session created
+21:40:58.407: PipeWire initialized
+21:41:18.712: [pipewire] Asking for monitor and window

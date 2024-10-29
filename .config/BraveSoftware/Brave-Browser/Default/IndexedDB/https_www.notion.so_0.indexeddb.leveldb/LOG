@@ -1,34 +1,21 @@
-2024/05/23-21:54:49.111 3e1 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2024/05/23-21:54:49.111 3e1 Recovering log #47
-2024/05/23-21:54:49.157 3e1 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000047.log 
-2024/05/23-21:54:49.158 3e1 Delete type=2 #45
-2024/05/23-21:54:50.270 3e1 Level-0 table #52: started
-2024/05/23-21:54:50.287 3e1 Level-0 table #52: 1016398 bytes OK
-2024/05/23-21:54:50.288 3e1 Delete type=0 #47
-2024/05/23-21:54:50.289 3e1 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 300203 : 1
-2024/05/23-21:54:50.289 3e1 Compacting 1@0 + 1@1 files
-2024/05/23-21:54:50.326 3e1 Generated table #53@0: 23650 keys, 1053559 bytes
-2024/05/23-21:54:50.326 3e1 Compacted 1@0 + 1@1 files => 1053559 bytes
-2024/05/23-21:54:50.327 3e1 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/05/23-21:54:50.327 3e1 Delete type=2 #52
-2024/05/23-21:54:50.328 3e1 Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 300203 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/05/23-22:12:06.215 3e2 Level-0 table #55: started
-2024/05/23-22:12:06.227 3e2 Level-0 table #55: 612627 bytes OK
-2024/05/23-22:12:06.229 3e2 Delete type=0 #51
-2024/05/23-22:12:06.229 3e2 Delete type=2 #49
-2024/05/23-22:12:06.230 3e2 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x05\x01 \x04\x02\x01$\x002\x00b\x00f\x003\x001\x00a\x004\x004\x00-\x00c\x00e\x00a\x00a\x00-\x004\x002\x003\x00d\x00-\x00a\x009\x007\x001\x00-\x008\x000\x004\x006\x001\x005\x004\x004\x00b\x008\x009\x00f\x03\x000\xf0Oq\xfaxB\x00\x01$\x003\x00c\x005\x00e\x00a\x00f\x00d\x006\x00-\x00b\x00c\x007\x003\x00-\x004\x001\x00d\x00e\x00-\x008\x00a\x001\x00d\x00-\x00f\x000\x008\x008\x00c\x008\x004\x00b\x006\x004\x000\x007' @ 316274 : 1
-2024/05/23-22:12:06.230 3e2 Compacting 1@0 + 1@1 files
-2024/05/23-22:12:06.259 3e2 Generated table #56@0: 24250 keys, 1052039 bytes
-2024/05/23-22:12:06.259 3e2 Compacted 1@0 + 1@1 files => 1052039 bytes
-2024/05/23-22:12:06.261 3e2 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/05/23-22:12:06.261 3e2 Delete type=2 #53
-2024/05/23-22:12:06.261 3e2 Delete type=2 #55
-2024/05/23-22:12:06.262 3e2 Manual compaction at level-0 from '\x00\x05\x01 \x04\x02\x01$\x002\x00b\x00f\x003\x001\x00a\x004\x004\x00-\x00c\x00e\x00a\x00a\x00-\x004\x002\x003\x00d\x00-\x00a\x009\x007\x001\x00-\x008\x000\x004\x006\x001\x005\x004\x004\x00b\x008\x009\x00f\x03\x000\xf0Oq\xfaxB\x00\x01$\x003\x00c\x005\x00e\x00a\x00f\x00d\x006\x00-\x00b\x00c\x007\x003\x00-\x004\x001\x00d\x00e\x00-\x008\x00a\x001\x00d\x00-\x00f\x000\x008\x008\x00c\x008\x004\x00b\x006\x004\x000\x007' @ 316274 : 1 .. (end); will stop at (end)
-2024/05/23-22:12:06.262 3e2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01 \x04\x02\x01$\x00b\x00f\x00c\x003\x004\x006\x008\x006\x00-\x00b\x00e\x002\x003\x00-\x004\x00d\x00d\x005\x00-\x008\x008\x000\x005\x00-\x00c\x004\x00d\x00e\x005\x00b\x000\x00f\x001\x000\x000\x001\x03\x00@eRp\xfaxB\x00\x01$\x000\x003\x006\x007\x008\x007\x008\x001\x00-\x004\x00e\x00e\x004\x00-\x004\x003\x001\x00f\x00-\x00a\x00d\x007\x008\x00-\x001\x005\x005\x002\x004\x001\x00a\x000\x00d\x005\x00f\x000' @ 300174 : 1
-2024/05/23-22:12:06.262 3e2 Compacting 1@1 + 1@2 files
-2024/05/23-22:12:06.283 3e2 Generated table #57@1: 12505 keys, 938738 bytes
-2024/05/23-22:12:06.283 3e2 Compacted 1@1 + 1@2 files => 938738 bytes
-2024/05/23-22:12:06.285 3e2 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/05/23-22:12:06.286 3e2 Delete type=2 #8
-2024/05/23-22:12:06.286 3e2 Delete type=2 #56
-2024/05/23-22:12:06.287 3e2 Manual compaction at level-1 from '\x00\x05\x01 \x04\x02\x01$\x00b\x00f\x00c\x003\x004\x006\x008\x006\x00-\x00b\x00e\x002\x003\x00-\x004\x00d\x00d\x005\x00-\x008\x008\x000\x005\x00-\x00c\x004\x00d\x00e\x005\x00b\x000\x00f\x001\x000\x000\x001\x03\x00@eRp\xfaxB\x00\x01$\x000\x003\x006\x007\x008\x007\x008\x001\x00-\x004\x00e\x00e\x004\x00-\x004\x003\x001\x00f\x00-\x00a\x00d\x007\x008\x00-\x001\x005\x005\x002\x004\x001\x00a\x000\x00d\x005\x00f\x000' @ 300174 : 1 .. (end); will stop at (end)
+2024/08/23-17:46:24.917 822 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/23-17:46:24.918 822 Recovering log #253
+2024/08/23-17:46:24.918 822 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000253.log 
+2024/08/23-17:46:24.918 822 Delete type=2 #251
+2024/08/23-17:46:24.918 822 Delete type=2 #254
+2024/08/23-17:46:24.918 822 Delete type=2 #247
+2024/08/23-17:46:24.918 822 Delete type=2 #250
+2024/08/23-17:46:25.362 822 Level-0 table #259: started
+2024/08/23-17:46:25.364 822 Level-0 table #259: 5176 bytes OK
+2024/08/23-17:46:25.365 822 Delete type=0 #253
+2024/08/23-17:46:25.366 822 Manual compaction at level-0 from '\x00&\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/23-18:48:42.950 822 Level-0 table #261: started
+2024/08/23-18:48:42.952 822 Level-0 table #261: 541 bytes OK
+2024/08/23-18:48:42.954 822 Delete type=0 #258
+2024/08/23-18:48:42.954 822 Manual compaction at level-0 from '\x00'\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x00\x00\x05' @ 1266967 : 1
+2024/08/23-18:48:42.954 822 Compacting 1@0 + 1@1 files
+2024/08/23-18:48:42.956 822 Generated table #262@0: 98 keys, 1786 bytes
+2024/08/23-18:48:42.956 822 Compacted 1@0 + 1@1 files => 1786 bytes
+2024/08/23-18:48:42.957 822 compacted to: files[ 0 1 2 0 0 0 0 ]
+2024/08/23-18:48:42.958 822 Delete type=2 #261
+2024/08/23-18:48:42.958 822 Manual compaction at level-0 from '\x00'\x00\x00\x05' @ 1266967 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -13,6 +13,6 @@ pkg/
 src/
 
 .config/github-copilot
-.config/BraveSoftware
+.config/BraveSoftware/*
 .config/dconf/user
 .config/pulse

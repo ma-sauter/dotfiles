@@ -23,9 +23,9 @@ window#waybar.hidden {
 }
 
 #window {
-  margin: 2;
-  padding-left: 8;
-  padding-right: 8;
+  margin: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
   background-color: rgba(0,0,0,0);
   font-size:14px;
   font-weight: bold;
@@ -95,6 +95,7 @@ button:hover {
 #backlight,
 #network,
 #pulseaudio,
+#custom-bluetooth_charge,
 #wireplumber,
 #custom-media,
 #tray,

@@ -1,3 +1,6 @@
-2024/10/28-16:57:29.656 4 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2024/10/28-16:57:29.663 4 Recovering log #2085
-2024/10/28-16:57:29.663 4 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/002085.log 
+2025/03/28-22:50:42.557 4 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/03/28-22:50:42.567 4 Recovering log #4551
+2025/03/28-22:50:42.568 4 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/004551.log 
+2025/03/28-22:51:43.792 5 Level-0 table #4560: started
+2025/03/28-22:51:43.858 5 Level-0 table #4560: 16705 bytes OK
+2025/03/28-22:51:43.866 5 Delete type=0 #4551

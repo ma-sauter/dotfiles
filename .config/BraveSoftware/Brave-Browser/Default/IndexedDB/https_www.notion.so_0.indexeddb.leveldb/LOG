@@ -1,21 +1,24 @@
-2024/08/23-17:46:24.917 822 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/23-17:46:24.918 822 Recovering log #253
-2024/08/23-17:46:24.918 822 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000253.log 
-2024/08/23-17:46:24.918 822 Delete type=2 #251
-2024/08/23-17:46:24.918 822 Delete type=2 #254
-2024/08/23-17:46:24.918 822 Delete type=2 #247
-2024/08/23-17:46:24.918 822 Delete type=2 #250
-2024/08/23-17:46:25.362 822 Level-0 table #259: started
-2024/08/23-17:46:25.364 822 Level-0 table #259: 5176 bytes OK
-2024/08/23-17:46:25.365 822 Delete type=0 #253
-2024/08/23-17:46:25.366 822 Manual compaction at level-0 from '\x00&\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00'\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/08/23-18:48:42.950 822 Level-0 table #261: started
-2024/08/23-18:48:42.952 822 Level-0 table #261: 541 bytes OK
-2024/08/23-18:48:42.954 822 Delete type=0 #258
-2024/08/23-18:48:42.954 822 Manual compaction at level-0 from '\x00'\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at '\x00'\x00\x00\x05' @ 1266967 : 1
-2024/08/23-18:48:42.954 822 Compacting 1@0 + 1@1 files
-2024/08/23-18:48:42.956 822 Generated table #262@0: 98 keys, 1786 bytes
-2024/08/23-18:48:42.956 822 Compacted 1@0 + 1@1 files => 1786 bytes
-2024/08/23-18:48:42.957 822 compacted to: files[ 0 1 2 0 0 0 0 ]
-2024/08/23-18:48:42.958 822 Delete type=2 #261
-2024/08/23-18:48:42.958 822 Manual compaction at level-0 from '\x00'\x00\x00\x05' @ 1266967 : 1 .. '\x00(\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/11-16:21:20.501 4a5 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/11-16:21:20.502 4a5 Recovering log #301
+2025/03/11-16:21:20.502 4a5 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000301.log 
+2025/03/11-16:21:20.503 4a5 Delete type=2 #299
+2025/03/11-16:21:22.615 4a6 Compacting 1@1 + 1@2 files
+2025/03/11-16:21:22.687 4a6 Generated table #305@1: 38289 keys, 2220721 bytes
+2025/03/11-16:21:22.687 4a6 Compacted 1@1 + 1@2 files => 2220721 bytes
+2025/03/11-16:21:22.688 4a6 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/03/11-16:21:22.749 4a6 Level-0 table #307: started
+2025/03/11-16:21:22.751 4a6 Level-0 table #307: 405 bytes OK
+2025/03/11-16:21:22.753 4a6 Delete type=2 #280
+2025/03/11-16:21:22.753 4a6 Delete type=2 #303
+2025/03/11-16:21:22.753 4a6 Delete type=0 #301
+2025/03/11-16:21:22.754 4a6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/11-16:21:22.754 4a6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x000\x00\x00\x05' @ 1306768 : 1
+2025/03/11-16:21:22.754 4a6 Compacting 1@1 + 2@2 files
+2025/03/11-16:21:22.804 4a6 Generated table #308@1: 38308 keys, 2222346 bytes
+2025/03/11-16:21:22.821 4a6 Generated table #309@1: 5931 keys, 464244 bytes
+2025/03/11-16:21:22.821 4a6 Compacted 1@1 + 2@2 files => 2686590 bytes
+2025/03/11-16:21:22.823 4a6 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/03/11-16:21:22.823 4a6 Delete type=2 #307
+2025/03/11-16:21:22.824 4a6 Delete type=2 #305
+2025/03/11-16:21:22.824 4a6 Delete type=2 #281
+2025/03/11-16:21:22.825 4a6 Manual compaction at level-1 from '\x000\x00\x00\x05' @ 1306768 : 1 .. (end); will stop at (end)

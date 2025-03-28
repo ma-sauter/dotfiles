@@ -1,12 +1,14 @@
-2024/08/23-17:38:14.119 822 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/23-17:38:14.119 822 Recovering log #248
-2024/08/23-17:38:14.129 822 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000248.log 
-2024/08/23-17:38:14.404 826 Level-0 table #254: started
-2024/08/23-17:38:14.413 826 Level-0 table #254: 137997 bytes OK
-2024/08/23-17:38:14.415 826 Delete type=0 #248
-2024/08/23-17:38:14.416 822 Manual compaction at level-0 from '\x00%\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00&\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/08/23-17:46:07.442 823 Compacting 1@1 + 3@2 files
-2024/08/23-17:46:07.520 823 Generated table #255@1: 36800 keys, 2221018 bytes
-2024/08/23-17:46:07.529 823 Generated table #256@1: 4693 keys, 367340 bytes
-2024/08/23-17:46:07.529 823 Compacted 1@1 + 3@2 files => 2588358 bytes
-2024/08/23-17:46:07.531 823 compacted to: files[ 0 0 2 0 0 0 0 ]
+2025/03/06-21:46:52.408 515 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/06-21:46:52.409 515 Recovering log #297
+2025/03/06-21:46:52.410 515 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000297.log 
+2025/03/06-21:46:52.411 515 Delete type=2 #295
+2025/03/06-21:46:52.673 515 Level-0 table #302: started
+2025/03/06-21:46:52.677 515 Level-0 table #302: 533 bytes OK
+2025/03/06-21:46:52.679 515 Delete type=0 #297
+2025/03/06-21:46:52.681 526 Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at '\x00/\x00\x00\x05' @ 1306749 : 1
+2025/03/06-21:46:52.681 526 Compacting 1@0 + 1@1 files
+2025/03/06-21:46:52.684 526 Generated table #303@0: 121 keys, 2042 bytes
+2025/03/06-21:46:52.684 526 Compacted 1@0 + 1@1 files => 2042 bytes
+2025/03/06-21:46:52.686 526 compacted to: files[ 0 1 2 0 0 0 0 ]
+2025/03/06-21:46:52.687 526 Delete type=2 #302
+2025/03/06-21:46:52.687 515 Manual compaction at level-0 from '\x00/\x00\x00\x05' @ 1306749 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)

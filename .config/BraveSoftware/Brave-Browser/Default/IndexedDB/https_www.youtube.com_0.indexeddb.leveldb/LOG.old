@@ -1,12 +1,6 @@
-2024/09/18-14:44:06.827 6d3 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/18-14:44:06.828 6d3 Recovering log #221
-2024/09/18-14:44:06.837 6d3 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000221.log 
-2024/09/18-14:45:11.970 6d4 Level-0 table #226: started
-2024/09/18-14:45:12.050 6d4 Level-0 table #226: 1177334 bytes OK
-2024/09/18-14:45:12.054 6d4 Delete type=0 #221
-2024/09/18-14:47:09.178 6d4 Compacting 1@1 + 1@2 files
-2024/09/18-14:47:09.246 6d4 Generated table #227@1: 333 keys, 47543 bytes
-2024/09/18-14:47:09.246 6d4 Compacted 1@1 + 1@2 files => 47543 bytes
-2024/09/18-14:47:09.247 6d4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/09/18-14:47:09.248 6d4 Delete type=2 #223
-2024/09/18-14:47:09.248 6d4 Delete type=2 #226
+2025/03/24-16:03:54.554 1b31 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/24-16:03:54.555 1b31 Recovering log #928
+2025/03/24-16:03:54.567 1b31 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000928.log 
+2025/03/24-16:03:55.799 1b31 Level-0 table #933: started
+2025/03/24-16:03:55.879 1b31 Level-0 table #933: 1372801 bytes OK
+2025/03/24-16:03:55.885 1b31 Delete type=0 #928

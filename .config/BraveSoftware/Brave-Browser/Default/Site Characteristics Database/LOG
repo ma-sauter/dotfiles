@@ -1,3 +1,5 @@
-2024/10/28-17:09:36.791 8f0 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
-2024/10/28-17:09:36.791 8f0 Recovering log #3
-2024/10/28-17:09:36.794 8f0 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log 
+2025/03/28-22:56:24.767 427 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/MANIFEST-000001
+2025/03/28-22:56:24.768 427 Recovering log #3
+2025/03/28-22:56:24.771 427 (ignoring error) /home/marc/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log: dropping 31 bytes; Corruption: missing start of fragmented record(2)
+2025/03/28-22:56:24.771 427 (ignoring error) /home/marc/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log: dropping 34 bytes; Corruption: missing start of fragmented record(2)
+2025/03/28-22:56:24.772 427 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database/000003.log 

@@ -1,2 +1,3 @@
  map <C-+> zoom in
  map <C--> zoom out
+ map <C-a> feedkeys  ":exec zathura --page $PAGE $FILE<Return>s"

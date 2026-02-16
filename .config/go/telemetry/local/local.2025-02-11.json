@@ -1,0 +1,19 @@
+{
+ "Week": "2025-02-11",
+ "LastWeek": "",
+ "X": 0.7190167965592091,
+ "Programs": [
+  {
+   "Program": "cmd/go",
+   "Version": "go1.23.5",
+   "GoVersion": "go1.23.5",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/invocations": 1
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

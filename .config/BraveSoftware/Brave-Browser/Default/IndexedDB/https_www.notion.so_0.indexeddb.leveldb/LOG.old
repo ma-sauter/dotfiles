@@ -1,14 +1,29 @@
-2025/03/06-21:46:52.408 515 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/06-21:46:52.409 515 Recovering log #297
-2025/03/06-21:46:52.410 515 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000297.log 
-2025/03/06-21:46:52.411 515 Delete type=2 #295
-2025/03/06-21:46:52.673 515 Level-0 table #302: started
-2025/03/06-21:46:52.677 515 Level-0 table #302: 533 bytes OK
-2025/03/06-21:46:52.679 515 Delete type=0 #297
-2025/03/06-21:46:52.681 526 Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at '\x00/\x00\x00\x05' @ 1306749 : 1
-2025/03/06-21:46:52.681 526 Compacting 1@0 + 1@1 files
-2025/03/06-21:46:52.684 526 Generated table #303@0: 121 keys, 2042 bytes
-2025/03/06-21:46:52.684 526 Compacted 1@0 + 1@1 files => 2042 bytes
-2025/03/06-21:46:52.686 526 compacted to: files[ 0 1 2 0 0 0 0 ]
-2025/03/06-21:46:52.687 526 Delete type=2 #302
-2025/03/06-21:46:52.687 515 Manual compaction at level-0 from '\x00/\x00\x00\x05' @ 1306749 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-13:53:41.150 a6d Creating DB /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2025/09/01-13:53:41.155 a6d Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/01-13:53:41.598 a6d Level-0 table #5: started
+2025/09/01-13:53:41.599 a6d Level-0 table #5: 2173 bytes OK
+2025/09/01-13:53:41.601 a6d Delete type=0 #3
+2025/09/01-13:53:41.601 a6d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-13:54:21.539 a6d Level-0 table #7: started
+2025/09/01-13:54:21.541 a6d Level-0 table #7: 18156 bytes OK
+2025/09/01-13:54:21.542 a6d Delete type=0 #4
+2025/09/01-13:54:21.542 a6d Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-13:54:21.543 a6d Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 855 : 1
+2025/09/01-13:54:21.543 a6d Compacting 1@1 + 1@2 files
+2025/09/01-13:54:21.544 a6d Generated table #8@1: 9 keys, 416 bytes
+2025/09/01-13:54:21.544 a6d Compacted 1@1 + 1@2 files => 416 bytes
+2025/09/01-13:54:21.545 a6d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-13:54:21.545 a6d Delete type=2 #7
+2025/09/01-13:54:21.546 a6d Manual compaction at level-1 from '\x00\x03\x00\x00\x05' @ 855 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-13:54:22.002 a6f Level-0 table #10: started
+2025/09/01-13:54:22.005 a6f Level-0 table #10: 484 bytes OK
+2025/09/01-13:54:22.007 a6f Delete type=0 #6
+2025/09/01-13:54:22.007 a6f Delete type=2 #5
+2025/09/01-13:54:22.008 a6d Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-13:54:22.008 a6d Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 960 : 0
+2025/09/01-13:54:22.008 a6d Compacting 1@1 + 1@2 files
+2025/09/01-13:54:22.009 a6d Generated table #11@1: 6 keys, 272 bytes
+2025/09/01-13:54:22.009 a6d Compacted 1@1 + 1@2 files => 272 bytes
+2025/09/01-13:54:22.011 a6d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-13:54:22.011 a6d Delete type=2 #10
+2025/09/01-13:54:22.011 a6d Manual compaction at level-1 from '\x00\x03\x00\x00\x05' @ 960 : 0 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

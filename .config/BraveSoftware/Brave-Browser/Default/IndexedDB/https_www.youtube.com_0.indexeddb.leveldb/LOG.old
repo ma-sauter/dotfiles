@@ -1,6 +1,30 @@
-2025/03/24-16:03:54.554 1b31 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/24-16:03:54.555 1b31 Recovering log #928
-2025/03/24-16:03:54.567 1b31 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000928.log 
-2025/03/24-16:03:55.799 1b31 Level-0 table #933: started
-2025/03/24-16:03:55.879 1b31 Level-0 table #933: 1372801 bytes OK
-2025/03/24-16:03:55.885 1b31 Delete type=0 #928
+2026/02/12-16:42:39.609 9198 Reusing MANIFEST /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/12-16:42:39.610 9198 Recovering log #2158
+2026/02/12-16:42:39.615 9198 Reusing old log /home/marc/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/002158.log 
+2026/02/12-16:42:39.761 919b Compacting 1@1 + 1@2 files
+2026/02/12-16:42:39.768 919b Generated table #2161@1: 1603 keys, 121192 bytes
+2026/02/12-16:42:39.768 919b Compacted 1@1 + 1@2 files => 121192 bytes
+2026/02/12-16:42:39.769 919b compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/12-16:46:09.549 919b Level-0 table #2163: started
+2026/02/12-16:46:09.621 919b Level-0 table #2163: 1556728 bytes OK
+2026/02/12-16:46:09.630 919b Delete type=2 #2156
+2026/02/12-16:46:09.630 919b Delete type=0 #2158
+2026/02/12-16:46:09.630 919b Delete type=2 #2159
+2026/02/12-16:46:37.674 919b Compacting 1@1 + 1@2 files
+2026/02/12-16:46:37.744 919b Generated table #2164@1: 1620 keys, 108731 bytes
+2026/02/12-16:46:37.744 919b Compacted 1@1 + 1@2 files => 108731 bytes
+2026/02/12-16:46:37.748 919b compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/12-16:46:37.749 919b Delete type=2 #2163
+2026/02/12-16:46:37.749 919b Delete type=2 #2161
+2026/02/12-17:33:14.931 919b Level-0 table #2166: started
+2026/02/12-17:33:14.945 919b Level-0 table #2166: 605611 bytes OK
+2026/02/12-17:33:14.950 919b Delete type=0 #2162
+2026/02/12-17:33:14.951 919b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/02/12-17:33:14.951 919b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00V\x01\x1f\x03\xcd\x8c\xc7]\xc28zB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 1364306 : 0
+2026/02/12-17:33:14.951 919b Compacting 1@1 + 1@2 files
+2026/02/12-17:33:14.959 919b Generated table #2167@1: 1598 keys, 100017 bytes
+2026/02/12-17:33:14.959 919b Compacted 1@1 + 1@2 files => 100017 bytes
+2026/02/12-17:33:14.961 919b compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/12-17:33:14.961 919b Delete type=2 #2166
+2026/02/12-17:33:14.961 919b Delete type=2 #2164
+2026/02/12-17:33:14.962 919b Manual compaction at level-1 from '\x00V\x01\x1f\x03\xcd\x8c\xc7]\xc28zB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 1364306 : 0 .. (end); will stop at (end)

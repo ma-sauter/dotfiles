@@ -138,9 +138,16 @@ hl.config({
             natural_scroll = true
         }
     },
-    workspaces = {
-        "10, on-created-empty:keepassxc, defaultName:"
+    xwayland = {
+            enabled = true
     }
+})
+
+-- Workspace rules
+hl.workspace_rule({
+        workspace = "10",
+        on_created_empty = "keepassxc",
+        default_name = ""
 })
 
 -- Animations
@@ -261,9 +268,10 @@ end)
 -- 8. AUTOSTART EXECS
 -------------------------------------------------------------------------------
 hl.on("hyprland.start", function()
-    hl.exec_cmd("awww-daemon")
-    handle_wallpaper(false)
-    hl.exec_cmd("/usr/bin/dunst")
-    hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
-    hl.exec_cmd("waybar -c .config/waybar/config.jsonc")
+        hl.exec_cmd("systemctl --user start hyprpolkitagent")
+        hl.exec_cmd("awww-daemon")
+        handle_wallpaper(false)
+        hl.exec_cmd("/usr/bin/dunst")
+        hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
+        hl.exec_cmd("waybar -c .config/waybar/config.jsonc")
 end)

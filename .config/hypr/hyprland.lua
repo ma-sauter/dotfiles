@@ -38,30 +38,6 @@ local function handle_wallpaper(force_random)
     end
 end
 
--- Native Lua implementation of move_workspace_to_next_monitor.sh
-local function move_workspace_to_next_monitor()
-    local monitors_json = hl.get_info("monitors")
-    local active_ws_json = hl.get_info("activeworkspace")
-    
-    if not monitors_json or not active_ws_json then return end
-
-    local current_monitor = active_ws_json.monitor
-    local monitor_names = {}
-    local current_index = 1
-
-    for i, mon in ipairs(monitors_json) do
-        table.insert(monitor_names, mon.name)
-        if mon.name == current_monitor then
-            current_index = i
-        end
-    end
-
-    if #monitor_names > 1 then
-        local next_index = (current_index % #monitor_names) + 1
-        local next_monitor = monitor_names[next_index]
-        hl.dispatch("movecurrentworkspacetomonitor", next_monitor)
-    end
-end
 
 -------------------------------------------------------------------------------
 -- 2. ENVIRONMENT
@@ -79,12 +55,27 @@ hl.monitor({
     scale = 1
 })
 
+-- Standard Monitor setup
 hl.monitor({
     output = "",
     mode = "preferred",
     position = "auto-right",
     scale = 1,
     mirror = "eDP-1"
+})
+
+-- Monitors at PosskeLab
+hl.monitor({
+    output = "DP-3",
+    mode = "preferred",
+    position = "auto-right",
+    scale = 1
+})
+hl.monitor({
+    output = "DP-5",
+    mode = "preferred",
+    position = "auto-right",
+    scale = 1
 })
 
 -- Color Fallbacks
@@ -157,7 +148,7 @@ hl.curve( "Spring", { type = "spring", mass = 1, stiffness = 170, dampening = 15
 hl.animation({
         leaf = "global",
         enabled = true,
-        speed = 1,
+        speed = 2,
         bezier = "Bezier",
 })
 
@@ -207,7 +198,6 @@ hl.bind("SUPER + F", hl.dsp.window.fullscreen({action = toggle}))
 bind_cmd("SUPER + PRINT", "hyprshot -m window")
 
 -- Web-Apps & Custom Script Triggers
-hl.bind("SUPER + SHIFT + V", move_workspace_to_next_monitor)
 hl.bind("SUPER + W", function() handle_wallpaper(true) end) -- BROKEN!!!
 bind_cmd("SUPER + B", "brave")
 bind_cmd("SUPER + G", "brave --app=https://chat.openai.com")
@@ -227,15 +217,20 @@ hl.bind("SUPER + J", hl.dsp.focus({direction = "d"}))
 hl.bind("SUPER + K", hl.dsp.focus({direction = "u"}))
 hl.bind("SUPER + L", hl.dsp.focus({direction = "r"}))
 
--- Workspace Loop
+-- Moving Windows to Workspaces Loop
 for i = 0, 9 do
     local ws = tostring(i == 0 and 10 or i)
     hl.bind("SUPER + " .. tostring(i), hl.dsp.focus({workspace=ws}))
     hl.bind("SUPER + SHIFT + " .. tostring(i), hl.dsp.window.move({workspace=ws}))
+    hl.bind("SUPER + CONTROL + SHIFT + " .. tostring(i), hl.dsp.window.move({monitor=tostring(i-1), follow = true}))
 end
 
+-- Moving Workspace to Next Monitor by pressing right arrow key
+hl.bind("SUPER + SHIFT + RIGHT", hl.dsp.workspace.move({monitor = "+1"}))
+hl.bind("SUPER + SHIFT + LEFT", hl.dsp.workspace.move({monitor = "-1"}))
+
 -- Mouse Dragging
-hl.bind("SUPER + mouse:272", function() hl.dispatch("movewindow") end, { mouse = true })
+hl.bind("SUPER + mouse:272", hl.dsp.window.drag())
 hl.bind("SUPER + mouse:273", function() hl.dispatch("resizewindow") end, { mouse = true })
 hl.bind("SUPER + mouse_down", function() hl.dispatch("workspace", "e+1") end)
 hl.bind("SUPER + mouse_up", function() hl.dispatch("workspace", "e-1") end)

@@ -225,9 +225,12 @@ for i = 0, 9 do
     hl.bind("SUPER + CONTROL + SHIFT + " .. tostring(i), hl.dsp.window.move({monitor=tostring(i-1), follow = true}))
 end
 
--- Moving Workspace to Next Monitor by pressing right arrow key
-hl.bind("SUPER + SHIFT + RIGHT", hl.dsp.workspace.move({monitor = "+1"}))
-hl.bind("SUPER + SHIFT + LEFT", hl.dsp.workspace.move({monitor = "-1"}))
+-- Moving Workspace to Next Monitor by pressing arrow keys
+hl.bind("SUPER + SHIFT + RIGHT", hl.dsp.workspace.move({monitor = "+1", follow = "true"}))
+hl.bind("SUPER + SHIFT + LEFT", hl.dsp.workspace.move({monitor = "-1", follow = "true"}))
+-- Moving Focus to Next Monitor by pressing arrow keys
+hl.bind("SUPER + RIGHT", hl.dsp.focus({monitor = "+1"}))
+hl.bind("SUPER + LEFT", hl.dsp.focus({monitor = "-1"}))
 
 -- Mouse Dragging
 hl.bind("SUPER + mouse:272", hl.dsp.window.drag())

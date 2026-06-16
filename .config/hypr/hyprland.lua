@@ -13,8 +13,8 @@ local function handle_wallpaper(force_random)
     local home = os.getenv("HOME")
     local cache_exists = os.execute("[ -e " .. home .. "/.cache/wal/colors ]")
 
-    if cache_exists == 0 and not force_random then
-        exec("wal -R")
+    if cache_exists and not force_random then
+        os.execute("wal -R")
     else
         local wp_dir = home .. "/wallpaper"
         local p = io.popen("ls " .. wp_dir)
@@ -32,7 +32,6 @@ local function handle_wallpaper(force_random)
             local full_path = wp_dir .. "/" .. random_pic
 
             exec("awww img " .. full_path .. " --transition-type grow --transition-fps 60 --transition-duration 0.2 --transition-pos 0.810,0.972 --transition-bezier 0.65,0,0.35,1 --transition-step 255")
-            exec("awww img" .. full_path)
             exec("wal -q -i " .. full_path)
         end
     end
@@ -198,7 +197,7 @@ hl.bind("SUPER + F", hl.dsp.window.fullscreen({action = toggle}))
 bind_cmd("SUPER + PRINT", "hyprshot -m window")
 
 -- Web-Apps & Custom Script Triggers
-hl.bind("SUPER + W", function() handle_wallpaper(true) end) -- BROKEN!!!
+hl.bind("SUPER + W", function() handle_wallpaper(true) end)
 bind_cmd("SUPER + B", "brave")
 bind_cmd("SUPER + G", "brave --app=https://chat.openai.com")
 bind_cmd("SUPER + N", "brave --app=https://notion.so")
@@ -268,7 +267,7 @@ end)
 hl.on("hyprland.start", function()
         hl.exec_cmd("systemctl --user start hyprpolkitagent")
         hl.exec_cmd("awww-daemon")
-        handle_wallpaper(false)
+        -- handle_wallpaper(false)
         hl.exec_cmd("/usr/bin/dunst")
         hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
         hl.exec_cmd("waybar -c .config/waybar/config.jsonc")

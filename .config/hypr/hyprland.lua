@@ -33,6 +33,7 @@ local function handle_wallpaper(force_random)
 
             exec("awww img " .. full_path .. " --transition-type grow --transition-fps 60 --transition-duration 0.2 --transition-pos 0.810,0.972 --transition-bezier 0.65,0,0.35,1 --transition-step 255")
             exec("wal -q -i " .. full_path)
+            exec("ln -sf '" .. full_path .. "' " .. home .. "/.cache/wal/wallpaper")
         end
     end
 end
@@ -195,6 +196,7 @@ hl.bind("SUPER + S", hl.dsp.layout("togglesplit"))
 hl.bind("SUPER + SHIFT + S", hl.dsp.window.swap({prev = true}))
 hl.bind("SUPER + F", hl.dsp.window.fullscreen({action = toggle}))
 bind_cmd("SUPER + PRINT", "hyprshot -m window")
+bind_cmd("SUPER + SHIFT + L", "hyprlock")
 
 -- Web-Apps & Custom Script Triggers
 hl.bind("SUPER + W", function() handle_wallpaper(true) end)

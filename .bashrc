@@ -28,6 +28,8 @@ alias mypy='~/basic_python_venv/bin/python'
 alias mypip='~/basic_python_venv/bin/pip'
 
 alias sleepy='systemctl hibernate'
+
+alias wapp='firefox web.whatsapp.com & exit'
 #########################
 # PATH                  #
 #########################

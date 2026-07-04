@@ -14,8 +14,8 @@ src/
 
 .config/github-copilot
 .config/BraveSoftware/*
-.config/dconf/user
 .config/pulse
+.config/go
 
 .config/obsidian/
 !.config/obsidian/Preferences

@@ -1,0 +1,80 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "e81159977bf4251c13b4bcf29cabad2c744954c82d749ec7c4af044b7366d41c",
+    "telemetry.devDeviceId": "b54de7b0-289b-4568-b9f3-eef27e1d4fe3",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/marc/data/Masterarbeit/Literaturrecherche/LiteraturNotes_Obsidian/.obsidian/themes"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/marc/data/Masterarbeit/Literaturrecherche/LiteraturNotes_Obsidian/.obsidian/themes": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1762525301992": "__default__profile__",
+            "1771199749976": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/marc/data/Masterarbeit/Literaturrecherche/LiteraturNotes_Obsidian/.obsidian/themes",
+            "backupPath": "/home/marc/.config/VSCodium/Backups/2b89b051e7b027f40eaf517cbe91f4c5",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 955,
+                "height": 1043
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 238,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 238,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "64881089173c4b5cce09ef27ec7fae48": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

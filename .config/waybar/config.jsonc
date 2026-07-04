@@ -12,7 +12,8 @@
     // Modules configuration
     "hyprland/workspaces": {
     //     "disable-scroll": true,
-         "all-outputs": true,
+         "all-outputs": false,
+         "persistent-workspaces": true,
     //     "warp-on-scroll": false,
     //     "format": "{name}: {icon}",
     //     "format-icons": {

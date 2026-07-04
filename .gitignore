@@ -16,3 +16,12 @@ src/
 .config/BraveSoftware/*
 .config/dconf/user
 .config/pulse
+
+.config/obsidian/
+!.config/obsidian/Preferences
+!.config/obsidian/Plugins
+!.config/obsidian/*.json
+
+.config/VSCodium/*
+!.config/VSCodium/User
+!.config/VSCodium/Preferences

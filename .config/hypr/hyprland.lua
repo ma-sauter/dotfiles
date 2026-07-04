@@ -178,10 +178,10 @@ local function bind_cmd(keys, cmd, flags)
 end
 
 -- Function / Media keys
-bind_cmd("XF86AudioMute", "amixer set Speaker unmute; amixer set Master toggle")
-bind_cmd("XF86AudioLowerVolume", "amixer set Master 10%-", { repeating = true })
-bind_cmd("XF86AudioRaiseVolume", "amixer set Master 10%+", { repeating = true })
-bind_cmd("XF86AudioMicMute", "pactl set-source-mute 1 toggle")
+bind_cmd("XF86AudioMute", "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle")
+bind_cmd("XF86AudioLowerVolume", "wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%-", { repeating = true })
+bind_cmd("XF86AudioRaiseVolume", "wpctl set-volume @DEFAULT_AUDIO_SINK@ 10%+", { repeating = true })
+bind_cmd("XF86AudioMicMute", "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle")
 bind_cmd("XF86MonBrightnessDown", "brightnessctl set 5%-", { repeating = true })
 bind_cmd("XF86MonBrightnessUp", "brightnessctl set 5%+", { repeating = true })
 

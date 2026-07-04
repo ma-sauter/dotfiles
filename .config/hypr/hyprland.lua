@@ -33,7 +33,11 @@ local function handle_wallpaper(force_random)
 
             exec("awww img " .. full_path .. " --transition-type grow --transition-fps 60 --transition-duration 0.2 --transition-pos 0.810,0.972 --transition-bezier 0.65,0,0.35,1 --transition-step 255")
             exec("wal -q -i " .. full_path)
+
+            -- Saving the wallpaper path to a symlink for other applications to use
             exec("ln -sf '" .. full_path .. "' " .. home .. "/.cache/wal/wallpaper")
+            -- Restarting the waybar
+            exec("killall waybar && waybar & disown")
         end
     end
 end

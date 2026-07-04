@@ -1,3 +1,6 @@
+/* importing the colors of the waybar from pywal */
+@import url("../../.cache/wal/colors-waybar.css");
+
 * {
   /* `otf-font-awesome` is required to be installed for icons */
   font-family: "Noto Sans CJK KR Regular";

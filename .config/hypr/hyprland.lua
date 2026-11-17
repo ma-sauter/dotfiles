@@ -70,13 +70,29 @@ hl.monitor({
 
 -- Monitors at PosskeLab
 hl.monitor({
-    output = "DP-3",
+    output = "DP-4",
     mode = "preferred",
     position = "auto-right",
     scale = 1
 })
 hl.monitor({
-    output = "DP-5",
+    output = "DP-7",
+    mode = "preferred",
+    position = "auto-right",
+    scale = 1
+})
+
+--Monitors at NDR Coworking space
+hl.monitor({
+    output = "DP-1",
+    mode = "preferred",
+    position = "auto-right",
+    scale = 1
+})
+
+--Projector at home
+hl.monitor({
+    output = "HDMI-A-2",
     mode = "preferred",
     position = "auto-right",
     scale = 1
@@ -272,6 +288,7 @@ end)
 -------------------------------------------------------------------------------
 hl.on("hyprland.start", function()
         hl.exec_cmd("systemctl --user start hyprpolkitagent")
+        hl.exec_cmd("hypridle")
         hl.exec_cmd("awww-daemon")
         -- handle_wallpaper(false)
         hl.exec_cmd("/usr/bin/dunst")

@@ -157,9 +157,13 @@ hl.config({
 -- Workspace rules
 hl.workspace_rule({
         workspace = "10",
-        on_created_empty = "keepassxc",
         default_name = ""
 })
+hl.on("workspace.created", function(ws)
+    if ws.name == "" and ws.is_empty then
+        hl.exec_cmd("keepassxc")
+    end
+end)
 
 -- Animations
 hl.curve( "Bezier", { type = "bezier", points = { { 0.65,0}, {0.35,1} } })
